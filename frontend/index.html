@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba de REST API</title>
+  <link rel="stylesheet" href="style.css"> <!-- Opcional: Enlace al archivo CSS -->
+</head>
+<body>
+  <div class="container">
+    <h1>Prueba de REST API</h1>
+    <button onclick="getUsers()">Obtener Usuarios</button>
+    <button onclick="createUser()">Crear Usuario</button>
+    <br>
+    <label>Nombre del Usuario:</label>
+    <input type="text" id="username" placeholder="Escribe un nombre">
+    <h2>Respuesta:</h2>
+    <pre id="response">Aquí aparecerá la respuesta de la API...</pre>
+  </div>
+
+  <!-- Importa el archivo app.js -->
+  <script src="app.js"></script>
+</body>
+</html>
